@@ -31,8 +31,7 @@ The objective of this analysis was to develop a deep learning model capable of p
 ## Compiling, Training, and Evaluating the Model
 Different models were applied to achieve the desired accuracy percentage; however, the highest achieved was 73%. Despite adjustments, the model's accuracy improved slightly but remained below the target of 75%.
 
-**First Try**
-Model Configuration:
++ **First Try**
 
 Hidden Layers: 2
 First Hidden Layer: 80 units, ReLU activation
@@ -42,8 +41,7 @@ Accuracy: 73.14%
 
 The deep neural network model, with its sequential architecture featuring two hidden layers and an output layer, achieved an accuracy of 73.14% on the test dataset. While the model performed reasonably well, there remains potential for further optimization to reach the target accuracy.
 
-**Second Try**
-Model Configuration:
++ **Second Try**
 
 Hidden Layers: 3
 First Hidden Layer: 80 units, ReLU activation
@@ -54,7 +52,7 @@ Accuracy: 72.79%
 
 In the second attempt, the model was further optimized with three hidden layers. Despite improvements, the accuracy achieved was 72.79%, slightly lower than the previous attempt. Further optimization is needed to meet the 75% target.
 
-**Third Try**
++ **Third Try**
 Model Configuration:
 
 Hidden Layers: 3
@@ -62,17 +60,17 @@ First Hidden Layer: 110 units, ReLU activation
 Second Hidden Layer: 45 units, ReLU activation
 Third Hidden Layer: 76 units, sigmoid activation
 Output Layer: 1 unit, sigmoid activation
-Accuracy: 73%
+Accuracy: 72.85%
 
 After the third attempt, the model achieved an accuracy of 73%. This represented an improvement over previous iterations but still fell short of the 75% target. Further enhancements are necessary to achieve higher accuracy.
 
-**Fourth Try**
++ **Fourth Try**
 Model: Random Forest
 Accuracy: 72.1%
 
 The Random Forest model was evaluated and achieved an accuracy of 72.1%. The confusion matrix revealed that the model correctly predicted 2,236 instances of class 0 and 2,709 instances of class 1, while misclassifying 1,023 instances of class 0 as class 1 and 892 instances of class 1 as class 0. The classification report showed a precision of 0.71 and recall of 0.69 for class 0, and a precision of 0.73 and recall of 0.75 for class 1. The F1-scores were 0.70 for class 0 and 0.74 for class 1. Despite a balanced performance, further optimization is required to improve accuracy.
 
-**Fifth Try**
++ **Fifth Try**
 Model: Logistic Regression
 Accuracy: 72.2%
 
