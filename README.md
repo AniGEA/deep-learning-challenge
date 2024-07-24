@@ -1,17 +1,32 @@
 # Report on the Neural Network Model
 
-## Overview of the Analysis
-The purpose of this analysis was to develop a deep learning model to classify application success for the Alphabet Soup dataset. The goal was to achieve a high accuracy in predicting whether an application would be successful based on various features. This involved preprocessing the data, creating and training several neural network models, and evaluating their performance to find the best solution.
+## Background
+The nonprofit foundation Alphabet Soup aims to enhance its funding process by identifying applicants with the highest likelihood of success. To achieve this, we developed a binary classification model using machine learning and neural networks. The dataset provided contains over 34,000 entries of organizations that have applied for funding from Alphabet Soup. Each entry includes various metadata columns, such as:
+
+EIN and NAME: Identification columns
+APPLICATION_TYPE: Type of Alphabet Soup application
+AFFILIATION: Sector of industry affiliation
+CLASSIFICATION: Government organization classification
+USE_CASE: Purpose of funding
+ORGANIZATION: Type of organization
+STATUS: Active status of the application
+INCOME_AMT: Income classification
+SPECIAL_CONSIDERATIONS: Special considerations for the application
+ASK_AMT: Amount of funding requested
+IS_SUCCESSFUL: Indicator of whether the funding was used effectively
+Overview of the Analysis
+The objective of this analysis was to develop a deep learning model capable of predicting the success of funding applications. The focus was on preprocessing the data, building and training a neural network, and evaluating its performance to ensure it meets the desired accuracy benchmark.
 
 ## Results
 ### Data Preprocessing
-Target Variable(s): The target variable for the model is IS_SUCCESSFUL, which indicates whether an application was successful (1) or not (0).
-Feature Variable(s): The features for the model are the remaining columns in the dataset, excluding IS_SUCCESSFUL. These features include various characteristics and metrics of the applications.
-Variables to Remove: Any columns that are neither targets nor features should be removed. In this case, APPLICATION_ID was removed as it is an identifier and does not contribute to the model’s predictive capability.
++ **Target Variable(s):** The target variable is IS_SUCCESSFUL, which indicates whether an application was successful (1) or not (0).
++ **Feature Variable(s):** Features include all columns except IS_SUCCESSFUL, specifically after dropping non-beneficial columns like EIN and NAME.
++ **Variables to Remove:** Columns such as EIN and NAME were removed as they are identifiers and not useful for predictive modeling.
 
 
 
-Compiling, Training, and Evaluating the Model
+
+## Compiling, Training, and Evaluating the Model
 Different models were applied to achieve the desired accuracy percentage; however, the highest achieved was 73%. Despite adjustments, the model's accuracy improved slightly but remained below the target of 75%.
 
 **First Try**
