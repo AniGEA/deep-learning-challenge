@@ -3,18 +3,20 @@
 ## Background
 The nonprofit foundation Alphabet Soup aims to enhance its funding process by identifying applicants with the highest likelihood of success. To achieve this, we developed a binary classification model using machine learning and neural networks. The dataset provided contains over 34,000 entries of organizations that have applied for funding from Alphabet Soup. Each entry includes various metadata columns, such as:
 
-EIN and NAME: Identification columns
-APPLICATION_TYPE: Type of Alphabet Soup application
-AFFILIATION: Sector of industry affiliation
-CLASSIFICATION: Government organization classification
-USE_CASE: Purpose of funding
-ORGANIZATION: Type of organization
-STATUS: Active status of the application
-INCOME_AMT: Income classification
-SPECIAL_CONSIDERATIONS: Special considerations for the application
-ASK_AMT: Amount of funding requested
-IS_SUCCESSFUL: Indicator of whether the funding was used effectively
-Overview of the Analysis
+- EIN and NAME: Identification columns
+- APPLICATION_TYPE: Type of Alphabet Soup application
+- AFFILIATION: Sector of industry affiliation
+- CLASSIFICATION: Government organization classification
+- USE_CASE: Purpose of funding
+- ORGANIZATION: Type of organization
+- STATUS: Active status of the application
+- INCOME_AMT: Income classification
+- SPECIAL_CONSIDERATIONS: Special considerations for the application
+- ASK_AMT: Amount of funding requested
+- IS_SUCCESSFUL: Indicator of whether the funding was used effectively
+
+
+## Overview of the Analysis
 The objective of this analysis was to develop a deep learning model capable of predicting the success of funding applications. The focus was on preprocessing the data, building and training a neural network, and evaluating its performance to ensure it meets the desired accuracy benchmark.
 
 ## Results
