@@ -56,8 +56,6 @@ The deep neural network model, with its sequential architecture featuring two hi
 
 After the second attempt, the model was further optimized, achieving an accuracy of 72.79%. In this iteration, a deep neural network with three hidden layers was defined: the first hidden layer contained 80 units with a ReLU activation function, the second hidden layer had 30 units with a ReLU activation function, and the third hidden layer included 30 units with a sigmoid activation function. The output layer consisted of a single unit with a sigmoid activation function. Despite the adjustments, the model's accuracy improved slightly but remained below the target of 75%. There is still a need for further optimization to reach the desired accuracy.
 
-After the second attempt, the model was further optimized, achieving an accuracy of 72.91%. In this iteration, a deep neural network with three hidden layers was defined: the first hidden layer contained 80 units with a ReLU activation function, the second hidden layer had 30 units with a ReLU activation function, and the third hidden layer included 30 units with a sigmoid activation function. The output layer consisted of a single unit with a sigmoid activation function. Despite the adjustments, the model's accuracy improved slightly but remained below the target of 75%. The structure of the model is as follows:
-
 + **Third Try**
   - Hidden Layers: 3
   - First Hidden Layer: 110 units, ReLU activation
