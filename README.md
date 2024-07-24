@@ -54,11 +54,11 @@ The deep neural network model, with its sequential architecture featuring two hi
   - Output Layer: 1 unit, sigmoid activation
   - **Accuracy: 72.79%**
 
-In the second attempt, the model was further optimized with three hidden layers. Despite improvements, the accuracy achieved was 72.79%, slightly lower than the previous attempt. Further optimization is needed to meet the 75% target.
+After the second attempt, the model was further optimized, achieving an accuracy of 72.79%. In this iteration, a deep neural network with three hidden layers was defined: the first hidden layer contained 80 units with a ReLU activation function, the second hidden layer had 30 units with a ReLU activation function, and the third hidden layer included 30 units with a sigmoid activation function. The output layer consisted of a single unit with a sigmoid activation function. Despite the adjustments, the model's accuracy improved slightly but remained below the target of 75%. There is still a need for further optimization to reach the desired accuracy.
+
+After the second attempt, the model was further optimized, achieving an accuracy of 72.91%. In this iteration, a deep neural network with three hidden layers was defined: the first hidden layer contained 80 units with a ReLU activation function, the second hidden layer had 30 units with a ReLU activation function, and the third hidden layer included 30 units with a sigmoid activation function. The output layer consisted of a single unit with a sigmoid activation function. Despite the adjustments, the model's accuracy improved slightly but remained below the target of 75%. The structure of the model is as follows:
 
 + **Third Try**
-Model Configuration:
-
   - Hidden Layers: 3
   - First Hidden Layer: 110 units, ReLU activation
   - Second Hidden Layer: 45 units, ReLU activation
@@ -66,7 +66,7 @@ Model Configuration:
   - Output Layer: 1 unit, sigmoid activation
   - **Accuracy: 72.85%**
 
-After the third attempt, the model achieved an accuracy of 73%. This represented an improvement over previous iterations but still fell short of the 75% target. Further enhancements are necessary to achieve higher accuracy.
+After the third attempt, the model was optimized and achieved an accuracy of 72.85%. This represents an improvement but still falls short of the target accuracy of 75%. In this attempt, a deep neural network with three hidden layers was defined: the first hidden layer had 110 units with a ReLU activation function, the second hidden layer had 45 units with a ReLU activation function, and the third hidden layer had 76 units with a sigmoid activation function. The output layer consisted of a single unit with a sigmoid activation function. Despite these optimizations, the model's performance indicates that further enhancements are necessary. After the third attempt, the model achieved an accuracy of 73%. This represented an improvement over previous iterations but still fell short of the 75% target. Further enhancements are necessary to achieve higher accuracy.
 
 + **Fourth Try**
   - Model: Random Forest
