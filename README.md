@@ -37,11 +37,11 @@ Different models were applied to achieve the desired accuracy percentage; howeve
 
 + **First Try**
 
-Hidden Layers: 2
-First Hidden Layer: 80 units, ReLU activation
-Second Hidden Layer: 30 units, ReLU activation
-Output Layer: 1 unit, sigmoid activation
-Accuracy: 73.14%
+  - Hidden Layers: 2
+  - First Hidden Layer: 80 units, ReLU activation
+  - Second Hidden Layer: 30 units, ReLU activation
+  - Output Layer: 1 unit, sigmoid activation
+  - Accuracy: 73.14%
 
 The deep neural network model, with its sequential architecture featuring two hidden layers and an output layer, achieved an accuracy of 73.14% on the test dataset. While the model performed reasonably well, there remains potential for further optimization to reach the target accuracy.
 
